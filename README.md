@@ -1,6 +1,6 @@
 # MacroPollo — Backend
 
-Local AI inference server for the MacroPollo financial analytics terminal.
+Local AI inference server for real-time macro risk analysis — FastAPI + ChromaDB + Qwen 3.5, fully on-premise.
 
 ## Stack
 - **FastAPI** — REST API server
