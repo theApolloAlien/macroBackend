@@ -26,7 +26,7 @@ except ImportError:
     OCR_AVAILABLE = False
 
 # ─── Clients ─────────────────────────────────────────────────────────────────
-client = OpenAI(base_url="http://192.168.1.17:1234/v1", api_key="not-needed")
+client = OpenAI(base_url="http://192.168.xx.xx:1234/v1", api_key="not-needed")
 chroma_client = chromadb.PersistentClient(path="./institutional_memory_db")
 collection = chroma_client.get_or_create_collection(name="institutional_memory")
 embedder = SentenceTransformer('all-MiniLM-L6-v2')
