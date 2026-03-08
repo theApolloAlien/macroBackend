@@ -1,6 +1,6 @@
 # MacroPollo — Backend
 
-Local AI inference server for real-time macro risk analysis — FastAPI + ChromaDB + Qwen 3.5, fully on-premise.
+Local AI inference server for real-time macro risk analysis: FastAPI + ChromaDB + Qwen 3.5, fully on-premise.
 
 ## Stack
 - **FastAPI** — REST API server
@@ -28,4 +28,4 @@ Server runs at `http://localhost:8081`
 | `POST /remember` | Save to institutional memory |
 
 ## Architecture
-All inference runs locally — zero data leaves the machine.
+All inference runs locally: zero data leaves the machine.
